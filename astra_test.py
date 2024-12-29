@@ -7,8 +7,8 @@ def test_astra_connection():
     load_dotenv()
     
     # Get credentials from environment
-    api_endpoint = "https://e1c3e76f-dc81-4b5a-9242-8c0c60a6e9f3-us-east-2.apps.astra.datastax.com"
-    token = "AstraCS:fIuSbCtElNrcyAxgzpEddiuE:d3a347ff8bed03ef910fa1911043774b38c8d5e3248c290a7af5f78de58531a3"
+    api_endpoint = ""
+    token = ""
     keyspace = os.getenv("ASTRA_DB_KEYSPACE")
     
     # Print configuration (with token partially hidden)
@@ -55,14 +55,3 @@ def test_astra_connection():
 
 if __name__ == "__main__":
     test_astra_connection()
-
-
-# from astrapy import DataAPIClient
-
-# # Initialize the client
-# client = DataAPIClient("AstraCS:fIuSbCtElNrcyAxgzpEddiuE:d3a347ff8bed03ef910fa1911043774b38c8d5e3248c290a7af5f78de58531a3")
-# db = client.get_database_by_api_endpoint(
-#   "https://e1c3e76f-dc81-4b5a-9242-8c0c60a6e9f3-us-east-2.apps.astra.datastax.com"
-# )
-
-# print(f"Connected to Astra DB: {db.list_collection_names()}")
