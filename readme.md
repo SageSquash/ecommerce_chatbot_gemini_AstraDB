@@ -1,4 +1,4 @@
-```markdown
+
 # Ecommerce Chatbot LLM
 
 Welcome to the Ecommerce Chatbot LLM project! This project aims to create an intelligent chatbot for e-commerce platforms using large language models (LLMs). The chatbot can assist users with product inquiries, reviews, and recommendations.
@@ -91,8 +91,8 @@ ecommerce_chatbot_llm/
 ├── static/
 │   └── style.css
 └── README.md
-```
 
+```
 ## Key Files
 
 - **app.py**: Main application file to run the Flask server.
