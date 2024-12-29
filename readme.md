@@ -123,5 +123,3 @@ We welcome contributions! Please follow these steps:
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Thank you for checking out the Ecommerce Chatbot LLM project! We hope this documentation helps you get started quickly. If you have any questions or feedback, please feel free to reach out.
-```
-
