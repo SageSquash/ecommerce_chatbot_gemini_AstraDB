@@ -15,7 +15,20 @@ Welcome to the Ecommerce Chatbot LLM project! This project aims to create an int
 
 ## Introduction
 
-The Ecommerce Chatbot LLM leverages advanced natural language processing (NLP) techniques to provide a seamless shopping experience. It integrates with various data sources and uses machine learning models to understand and respond to user queries.
+# **E-Commerce Chatbot with LLM and Astra DB**
+
+This project is a comprehensive **E-commerce Chatbot** powered by **Large Language Models (LLM)** and **Astra DB**. The chatbot is designed to enhance the online shopping experience by providing intelligent, real-time assistance to users. It can handle customer queries, recommend products, and facilitate a smooth shopping journey through natural language interactions.
+
+Built using cutting-edge AI technologies and frameworks, the chatbot integrates seamlessly into e-commerce platforms to improve user engagement, boost sales, and streamline customer support operations. **Astra DB**, a highly scalable NoSQL database, is used to efficiently manage and retrieve product data and customer interactions, ensuring optimal performance in high-traffic environments.
+
+### **Key Features**
+- Smart product recommendations tailored to user preferences.
+- Real-time handling of customer queries and FAQs.
+- Context-aware conversations powered by state-of-the-art LLMs.
+- Seamless integration with e-commerce platforms.
+- Scalable architecture supported by **Astra DB** for efficient data management.
+
+This project combines the power of **Flask** for backend operations, **Jinja2** for templating, **Astra DB** for data storage, and **modern ML/NLP techniques** to deliver a robust conversational AI experience.
 
 ## Features
 
